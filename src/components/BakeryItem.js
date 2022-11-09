@@ -11,6 +11,7 @@ export default function BakeryItem(props) {
   return (
     <div>
       <h3>{item.name}</h3>
+      <img src={item.image}/>
       <p>{item.description}</p>
       <button onClick={handleClick}>Add to Cart</button>
     </div>
